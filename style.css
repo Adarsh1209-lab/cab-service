@@ -1,0 +1,21 @@
+.service-card {
+    border: 1px solid #ddd;
+padding: 50px;
+margin: 20px 0;
+border-radius: 5px;
+}  
+.service-card {
+    font: size 55px;
+    font-family: 'Elephant', sans-serif;
+}
+whatsapp-float {
+    @keyframe
+    animation-name: calc(slide);
+    animation-timing-function: 2ms;
+    animation-play-state: running;
+}
+img{
+    object-fit: cover;
+    image-rendering: auto;
+    background-image: image("cab,jpg");
+}

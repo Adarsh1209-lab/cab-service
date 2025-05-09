@@ -19,3 +19,25 @@ img{
     image-rendering: auto;
     background-image: image("cab,jpg");
 }
+/* Mobile styles (default) */
+.container {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Tablet styles */
+  @media (min-width: 600px) {
+    .container {
+      width: 90%;
+      padding: 15px;
+    }
+  }
+  
+  /* Desktop styles */
+  @media (min-width: 1024px) {
+    .container {
+      width: 80%;
+      max-width: 1200px;
+      padding: 20px;
+    }
+  }
